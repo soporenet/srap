@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  radius-auth-proxy:
+    image: soporenet-radius-auth-proxy:latest-amd64
+    container_name: radius-auth-proxy
+    volumes:
+      - "./srap/radius-auth-proxy-config.json:/app/radius-auth-proxy-config.json"
+    expose:
+      - 9090
+    restart: always
+

@@ -1,0 +1,23 @@
+{
+  "name": "net.sopore.traefik",
+  "version": "1.0.1",
+  "description": "Radius authentication proxy",
+  "main": "radius-auth-proxy.js",
+  "dependencies": {
+    "express": "*",
+    "radius": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soporenet/traefik.git"
+  },
+  "author": "Abid Pir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soporenet/traefik/issues"
+  },
+  "homepage": "https://github.com/soporenet/traefik#readme"
+}
